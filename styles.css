@@ -36,22 +36,14 @@ body {
     margin-top: 0;
     padding-top: 0;
     font-weight: bolder;
- 
     font-family: 'Nunito', sans-serif;
     margin-bottom: var(--default-50px-margin);
 }
 
-.container-info {
-    margin: var(--default-50px-margin);
-}
 
 .form-group label {
     font-weight: 400;
     font-size: 0.98rem;
-}
-
-.green-bg-color {
-    background-color:greenyellow;
 }
 
 .middle-class {
