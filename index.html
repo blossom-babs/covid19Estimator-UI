@@ -7,7 +7,9 @@
         <meta name="description" content="A covid19 estimator">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="preload" as="style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link rel="preload" as="style" href="styles.css">
     </head>
     <body class="container">
         <div class="container-header">
@@ -18,20 +20,20 @@
 <form>
   <div class="card mb-4">
     <div class="card-body">
-<h3 class="green-color">A survey on the impact of covid-19 in Africa</h3>
-<p class="green-color">Please provide accurate Information</p>
-<p class="green-color">All inputs should be in figure</p>
+<h3>A survey on the impact of covid-19 in Africa</h3>
+<p>Please provide accurate Information</p>
+<p>All inputs should be in figure</p>
 <hr>
   <div class="row mt-4"> 
     <div class="col-sm-6">
   <div class="form-group">
-    <label for="data-population" class="green-color">Population</label>
+    <label for="data-population">Population</label>
     <input type="number" class="form-control" id="data-population">
   </div>
   </div>
   <div class="col-sm-6">
   <div class="form-group">
-    <label for="data-time-to-elapse" class="green-color">Time To Elapse</label>
+    <label for="data-time-to-elapse">Time To Elapse</label>
     <input type="text" class="form-control" id="data-time-to-elapse">
   </div>
   </div>
@@ -40,20 +42,20 @@
 <div class="row mt-4">
   <div class="col-sm-6">
   <div class="form-group">
-    <label for="data-reported-cases" class="green-color">Reported Cases</label>
+    <label for="data-reported-cases">Reported Cases</label>
     <input type="text" class="form-control" id="data-reported-cases">
   </div>
   </div>
   <div class="col-sm-6">
   <div class="form-group">
-    <label for="data-total-hospital-beds" class="green-color">Total Hospital Beds</label>
+    <label for="data-total-hospital-beds">Total Hospital Beds</label>
     <input type="text" class="form-control" id="data-total-hospital-beds">
   </div>
   </div>
   </div>
 
   <div class="form-group">
-    <label for="period-type" class="green-color">Period Type</label>
+    <label for="period-type">Period Type</label>
     <select class="form-control" id="period-type">
       <option>Days</option>
       <option>Weeks</option>
