@@ -4,15 +4,11 @@
     --default-50px-margin: 50px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     padding: 50px;
     background-color: #f1f1f1;
     font-family: 'Lora', serif;
+
 
 }
 
@@ -42,7 +38,7 @@ body {
 
 
 .form-group label {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.98rem;
 }
 
