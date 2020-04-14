@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html class="no-js"> 
+<html class="no-js" lang="en"> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Covid-19 Estimator</title>
-        <meta name="description" content="">
+        <meta name="description" content="A covid19 estimator">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
         <link rel="stylesheet" href="styles.css">
     </head>
     <body class="container">
@@ -37,9 +35,11 @@
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="green-bg-color carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="green-bg-color carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
   </a>
 </div>
 
@@ -55,13 +55,13 @@
   <div class="row mt-4"> 
     <div class="col-sm-6">
   <div class="form-group">
-    <label for="population" class="green-color">Population</label>
+    <label for="data-population" class="green-color">Population</label>
     <input type="number" class="form-control" id="data-population">
   </div>
   </div>
   <div class="col-sm-6">
   <div class="form-group">
-    <label for="timeToElapse" class="green-color">Time To Elapse</label>
+    <label for="data-time-to-elapse" class="green-color">Time To Elapse</label>
     <input type="text" class="form-control" id="data-time-to-elapse">
   </div>
   </div>
@@ -70,20 +70,20 @@
 <div class="row mt-4">
   <div class="col-sm-6">
   <div class="form-group">
-    <label for="reportedCases" class="green-color">Reported Cases</label>
+    <label for="data-reported-cases" class="green-color">Reported Cases</label>
     <input type="text" class="form-control" id="data-reported-cases">
   </div>
   </div>
   <div class="col-sm-6">
   <div class="form-group">
-    <label for="totalHospitalBeds" class="green-color">Total Hospital Beds</label>
+    <label for="data-total-hospital-beds" class="green-color">Total Hospital Beds</label>
     <input type="text" class="form-control" id="data-total-hospital-beds">
   </div>
   </div>
   </div>
 
   <div class="form-group">
-    <label for="period-Type" class="green-color">Period Type</label>
+    <label for="period-type" class="green-color">Period Type</label>
     <select class="form-control" id="period-type">
       <option>Days</option>
       <option>Weeks</option>
@@ -101,6 +101,9 @@
        <hr>
    
 <footer class="middle-class"> Stay safe. Stay at home.</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src=""></script>
     </body>
 </html>

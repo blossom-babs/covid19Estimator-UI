@@ -59,6 +59,10 @@ body {
     color: darkolivegreen;
 }
 
+.green-bg-color {
+    background-color: darkolivegreen;
+}
+
 .middle-class {
     font-weight: bolder;
     color: darkolivegreen;
