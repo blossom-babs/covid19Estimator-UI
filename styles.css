@@ -40,7 +40,7 @@ body {
     margin-top: 0;
     padding-top: 0;
     font-weight: bolder;
-    color: darkolivegreen;
+ 
     font-family: 'Nunito', sans-serif;
     margin-bottom: var(--default-50px-margin);
 }
@@ -55,17 +55,16 @@ body {
     font-size: 0.98rem;
 }
 
-.green-color {
-    color: darkolivegreen;
-}
+/* .green-color {
+    color:yellow;
+} */
 
 .green-bg-color {
-    background-color: darkolivegreen;
+    background-color:greenyellow;
 }
 
 .middle-class {
     font-weight: bolder;
-    color: darkolivegreen;
     font-family: 'Nunito', sans-serif;
     margin: var(--default-50px-margin);
 }
