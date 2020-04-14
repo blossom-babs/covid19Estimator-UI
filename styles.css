@@ -32,10 +32,6 @@ body {
     padding: 2rem;
 }
 
-.carousel-inner img {
-    margin: auto;
-}
-
 .container-header {
     margin-top: 0;
     padding-top: 0;
@@ -50,14 +46,9 @@ body {
 }
 
 .form-group label {
-    color: #666;
     font-weight: 400;
     font-size: 0.98rem;
 }
-
-/* .green-color {
-    color:yellow;
-} */
 
 .green-bg-color {
     background-color:greenyellow;
